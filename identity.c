@@ -25,4 +25,19 @@ void main(){
     area=pi*r*r;
     printf("Area of Circle:");
 
+}// Area of a Triangle
+
+#include<stdio.h>
+void main(){
+    float a,b,area;
+    printf("Enter Height:");
+    scanf("%f",&a);
+    printf("Enter Base:");
+    scanf("%f",&b);
+    area=0.5*a*b;
+    printf("The area of Triangle is:%.2f",area);
+
+
 }
+
+
